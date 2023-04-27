@@ -1,3 +1,21 @@
 body{
-    background-color: blue;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */
+
+.alert-container{
+
+}
+
+.callout-container{
+
+}
+
+.quotes-container{
+    
+}
+
+.features-container{
+    
 }
