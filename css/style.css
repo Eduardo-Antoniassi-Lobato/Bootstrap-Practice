@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -41,6 +48,13 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Content containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */
@@ -98,6 +112,17 @@ body {
     color: #d0d0d0;
 }
 
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom:0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
 /* Block dividers */
 
 .block-divider {
